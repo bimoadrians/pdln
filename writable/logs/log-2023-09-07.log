@@ -1,0 +1,622 @@
+CRITICAL - 2023-09-07 01:53:55 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 304)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 01:54:05 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 304)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 01:57:37 --> Undefined variable $r
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 267)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 01:58:08 --> Array to string conversion
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PT Konimex\\P...', 267)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+ERROR - 2023-09-07 02:17:17 --> Column 'kategori' cannot be null
+CRITICAL - 2023-09-07 02:17:17 --> Column 'kategori' cannot be null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(69): CodeIgniter\Model->insert(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(325): App\Models\KategoriModel->add(Array)
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+ERROR - 2023-09-07 02:17:33 --> Column 'kategori' cannot be null
+CRITICAL - 2023-09-07 02:17:33 --> Column 'kategori' cannot be null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(69): CodeIgniter\Model->insert(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(325): App\Models\KategoriModel->add(Array)
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-07 02:18:26 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 305)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 02:18:41 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 305)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 02:19:13 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 305)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 02:19:19 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 305)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+ERROR - 2023-09-07 02:45:18 --> Unknown column 'id_biaya' in 'where clause'
+CRITICAL - 2023-09-07 02:45:18 --> Unknown column 'id_biaya' in 'where clause'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(19): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(301): App\Models\KategoriModel->getData('100000.00')
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+CRITICAL - 2023-09-07 03:03:12 --> Undefined variable $data
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 308)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 03:03:36 --> Undefined variable $data
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 308)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 03:06:06 --> CodeIgniter\BaseModel::doProtectFields(): Argument #1 ($data) must be of type array, string given, called in D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php on line 918
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(918): CodeIgniter\BaseModel->doProtectFields('1')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(324): CodeIgniter\BaseModel->updateBatch(Array)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#7 {main}
+CRITICAL - 2023-09-07 03:06:16 --> CodeIgniter\BaseModel::doProtectFields(): Argument #1 ($data) must be of type array, string given, called in D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php on line 918
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(918): CodeIgniter\BaseModel->doProtectFields('1')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(324): CodeIgniter\BaseModel->updateBatch(Array)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#7 {main}
+CRITICAL - 2023-09-07 03:10:12 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(324): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}
+CRITICAL - 2023-09-07 03:10:24 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(324): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}
+CRITICAL - 2023-09-07 03:14:20 --> Undefined array key "id_kategori"
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(310): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PT Konimex\\P...', 310)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 03:14:34 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}
+ERROR - 2023-09-07 03:24:11 --> Duplicate entry '6' for key 'PRIMARY'
+CRITICAL - 2023-09-07 03:24:11 --> Duplicate entry '6' for key 'PRIMARY'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(329): CodeIgniter\Model->insert(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#13 {main}
+ERROR - 2023-09-07 03:24:19 --> Duplicate entry '6' for key 'PRIMARY'
+CRITICAL - 2023-09-07 03:24:19 --> Duplicate entry '6' for key 'PRIMARY'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(329): CodeIgniter\Model->insert(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#13 {main}
+CRITICAL - 2023-09-07 03:28:28 --> Undefined array key 7
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PT Konimex\\P...', 314)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 03:28:35 --> Undefined array key 7
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PT Konimex\\P...', 314)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 03:31:04 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(325): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}
+CRITICAL - 2023-09-07 03:31:10 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(325): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}
+CRITICAL - 2023-09-07 03:32:32 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(65): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(325): App\Models\KategoriModel->add(Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-09-07 03:33:18 --> There is no data to update.
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(65): CodeIgniter\Model->update(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(325): App\Models\KategoriModel->add(Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+ERROR - 2023-09-07 03:48:07 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2023-09-07 03:48:07 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(68): CodeIgniter\BaseModel->save(Array)
+#9 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(344): App\Models\KategoriModel->add(Array)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#12 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#15 {main}
+ERROR - 2023-09-07 03:48:16 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2023-09-07 03:48:16 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(68): CodeIgniter\BaseModel->save(Array)
+#9 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(344): App\Models\KategoriModel->add(Array)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#12 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#15 {main}
+CRITICAL - 2023-09-07 21:13:57 --> Undefined array key 6
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PT Konimex\\P...', 291)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:14:17 --> Undefined array key 6
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\PT Konimex\\P...', 291)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:16:19 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 326)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:16:36 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 326)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:18:26 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 326)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:18:30 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 326)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:19:36 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 326)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:25:23 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(328): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 328)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 21:26:12 --> Undefined variable $idr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 326)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+ERROR - 2023-09-07 22:07:22 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:07:22 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:07:24 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:07:24 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:07:29 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:07:29 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:07:30 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:07:30 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:07:56 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:07:56 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:07:58 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:07:58 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:08:22 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:08:22 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:08:23 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:08:23 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:10:10 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:10:10 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-09-07 22:10:11 --> Unknown column 'idr' in 'field list'
+CRITICAL - 2023-09-07 22:10:11 --> Unknown column 'idr' in 'field list'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(idr)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(idr)...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(idr)...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(idr)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(187): CodeIgniter\BaseModel->first()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+CRITICAL - 2023-09-07 22:10:51 --> Undefined variable $sumIdr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Views\pjum\v_datapjum.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 399)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-09-07 22:10:52 --> Undefined variable $sumIdr
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Views\pjum\v_datapjum.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 399)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-09-07 22:12:00 --> Undefined variable $kode_valas
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 396)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+ERROR - 2023-09-07 23:13:56 --> Cannot add or update a child row: a foreign key constraint fails (`db_pdln`.`kategori`, CONSTRAINT `id_biaya` FOREIGN KEY (`id_biaya`) REFERENCES `biaya` (`id_biaya`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-09-07 23:13:56 --> Cannot add or update a child row: a foreign key constraint fails (`db_pdln`.`kategori`, CONSTRAINT `id_biaya` FOREIGN KEY (`id_biaya`) REFERENCES `biaya` (`id_biaya`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(68): CodeIgniter\Model->insert(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(284): App\Models\KategoriModel->add(Array)
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+ERROR - 2023-09-07 23:14:07 --> Cannot add or update a child row: a foreign key constraint fails (`db_pdln`.`kategori`, CONSTRAINT `id_biaya` FOREIGN KEY (`id_biaya`) REFERENCES `biaya` (`id_biaya`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-09-07 23:14:07 --> Cannot add or update a child row: a foreign key constraint fails (`db_pdln`.`kategori`, CONSTRAINT `id_biaya` FOREIGN KEY (`id_biaya`) REFERENCES `biaya` (`id_biaya`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ka...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\KategoriModel.php(68): CodeIgniter\Model->insert(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(284): App\Models\KategoriModel->add(Array)
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-07 23:50:17 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 341)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-07 23:50:24 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 341)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}

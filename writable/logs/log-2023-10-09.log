@@ -1,0 +1,423 @@
+CRITICAL - 2023-10-09 00:59:30 --> Unsupported operand types: array + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 00:59:53 --> Unsupported operand types: array + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 01:02:27 --> Undefined variable $valaspjum
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 379)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:02:33 --> Undefined variable $valaspjum
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 379)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:03:05 --> Call to undefined method App\Models\KategoriModel::indexpesawatpb
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(313): CodeIgniter\Model->__call('indexpesawatpb', Array)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:03:30 --> Call to undefined method App\Models\KategoriModel::indexpesawatpb
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(313): CodeIgniter\Model->__call('indexpesawatpb', Array)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:15:05 --> Undefined variable $indexpesawat
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 314)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:15:11 --> Undefined variable $indexpesawat
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 314)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:15:34 --> Merge must be on a valid range of cells.
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(412): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells('B19C:19')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:15:39 --> Merge must be on a valid range of cells.
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(412): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells('B19C:19')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 01:50:16 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 01:50:33 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 01:50:38 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 02:11:43 --> Unsupported operand types: string % int
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1201): PhpOffice\PhpSpreadsheet\Cell\Coordinate::stringFromColumnIndex('J')
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(439): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueByColumnAndRow('J', 22, 'IDR')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-10-09 02:12:02 --> Unsupported operand types: string % int
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1201): PhpOffice\PhpSpreadsheet\Cell\Coordinate::stringFromColumnIndex('J')
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(439): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueByColumnAndRow('J', 22, 'IDR')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-10-09 03:16:07 --> Undefined variable $column
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(426): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 426)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 03:16:40 --> Undefined variable $column
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(426): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 426)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 03:16:41 --> Undefined variable $column
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(426): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 426)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 03:16:42 --> Undefined variable $column
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(426): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 426)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 03:17:44 --> Undefined variable $column
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(426): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 426)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 11:58:50 --> Undefined variable $oke
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 315)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 11:59:20 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 313)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-10-09 12:04:59 --> Unknown column 'id_biaya' in 'order clause'
+CRITICAL - 2023-10-09 12:04:59 --> Unknown column 'id_biaya' in 'order clause'
+#0 C:\xampp\htdocs\pdln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `baris`\n...', 0)
+#1 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `baris`\n...')
+#2 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `baris`\n...')
+#3 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `baris`\n...', Array, false)
+#4 C:\xampp\htdocs\pdln\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdln\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(310): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 20:22:02 --> fopen(Report Biaya 09002.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(Report Bi...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('Report Biaya 09...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('Report Biaya 09...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(602): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-09 20:28:44 --> explode(): Argument #2 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(316): explode(' ', Array)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 20:30:28 --> Unsupported operand types: array + string
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 20:59:29 --> Undefined variable $barispbpesawat
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(474): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 474)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 20:59:36 --> Undefined variable $barispbpesawat
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(474): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 474)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 21:03:25 --> Undefined variable $jumlahbarispesawat
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 317)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 21:32:04 --> fopen(Report Biaya 09002.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(Report Bi...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('Report Biaya 09...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('Report Biaya 09...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(653): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-09 21:32:42 --> Cell coordinate string can not be a range of cells
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(3005): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('D19:E20')
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(412): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(Array, NULL, 'D19:E20')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-10-09 21:41:56 --> implode(): Argument #1 ($pieces) must be of type array, string given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(333): implode(' ', NULL)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 21:43:56 --> implode(): Argument #1 ($pieces) must be of type array, string given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(333): implode(' ', NULL)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 21:48:44 --> implode(): Argument #1 ($pieces) must be of type array, string given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(333): implode(' ', NULL)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 21:49:27 --> Undefined variable $barispesawatpb
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 334)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 21:52:57 --> implode(): Argument #1 ($pieces) must be of type array, string given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(339): implode(' ', NULL)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-09 22:16:08 --> Invalid range: "G16:E16"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('G16:E16', 7, 6, 16, 16)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('G16:E16')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('G16:E16')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:16:16 --> Invalid range: "G16:E16"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('G16:E16', 7, 6, 16, 16)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('G16:E16')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('G16:E16')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:17:11 --> Invalid range: "I17:E17"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('I17:E17', 9, 6, 17, 17)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('I17:E17')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('I17:E17')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:17:13 --> Invalid range: "I17:E17"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('I17:E17', 9, 6, 17, 17)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('I17:E17')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('I17:E17')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:17:17 --> Invalid range: "I17:E17"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('I17:E17', 9, 6, 17, 17)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('I17:E17')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('I17:E17')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:17:41 --> Invalid range: "I17:H17"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('I17:H17', 9, 9, 17, 17)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('I17:H17')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('I17:H17')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:17:44 --> Invalid range: "I17:H17"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('I17:H17', 9, 9, 17, 17)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('I17:H17')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('I17:H17')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-09 22:19:03 --> fopen(Report Biaya 09002.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(Report Bi...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('Report Biaya 09...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('Report Biaya 09...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(639): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-09 22:57:36 --> Invalid cell coordinate C
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(3005): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('C')
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(402): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray(Array, NULL, 'C')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-10-09 23:03:24 --> Unsupported operand types: int + array
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 23:03:30 --> Unsupported operand types: int + array
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 23:03:46 --> Unsupported operand types: int + array
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 23:06:21 --> Unsupported operand types: PhpOffice\PhpSpreadsheet\Worksheet\Worksheet + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 23:06:41 --> Unsupported operand types: PhpOffice\PhpSpreadsheet\Worksheet\Worksheet + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 23:23:40 --> Undefined constant "App\Controllers\Admin\alphapb"
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-09 23:28:58 --> Maximum 31 characters allowed in sheet title.
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(915): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::checkSheetTitle('Data Biaya Perj...')
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(370): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setTitle('Data Biaya Perj...')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-10-09 23:29:28 --> Maximum 31 characters allowed in sheet title.
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(915): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::checkSheetTitle('Data Biaya Perj...')
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(370): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setTitle('Data Biaya Perj...')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('2')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,961 @@
+ERROR - 2023-09-20 00:03:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`biaya`, `biaya`.`simbol`
+FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya...' at line 1
+CRITICAL - 2023-09-20 00:03:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`biaya`, `biaya`.`simbol`
+FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya...' at line 1
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pum`.`p...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pum`.`p...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pum`.`p...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum`.`p...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(152): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): App\Models\BiayaModel->sisa('1', 'pjum')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 00:03:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`biaya`, `biaya`.`simbol`
+FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya...' at line 1
+CRITICAL - 2023-09-20 00:03:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`biaya`, `biaya`.`simbol`
+FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya...' at line 1
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pum`.`p...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pum`.`p...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pum`.`p...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum`.`p...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(152): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): App\Models\BiayaModel->sisa('1', 'pjum')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:03:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `biaya`.`i...' at line 2
+CRITICAL - 2023-09-20 01:03:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `biaya`.`i...' at line 2
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (pum, `b...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (pum, `b...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (pum, `b...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (pum, `b...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(152): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): App\Models\BiayaModel->sisa('1', 'pjum')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:03:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `biaya`.`i...' at line 2
+CRITICAL - 2023-09-20 01:03:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `biaya`.`i...' at line 2
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (pum.pum...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (pum.pum...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (pum.pum...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (pum.pum...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(152): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): App\Models\BiayaModel->sisa('1', 'pjum')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:05:00 --> Unknown column 'pum.jenis_biaya' in 'where clause'
+CRITICAL - 2023-09-20 01:05:00 --> Unknown column 'pum.jenis_biaya' in 'where clause'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(pum....', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(pum....')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(pum....')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(pum....', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): App\Models\BiayaModel->sisa('1', 'pjum')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-20 01:24:40 --> Undefined variable $kategori
+#0 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 150)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): App\Models\BiayaModel->sisa('1', 'pjum')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-09-20 01:45:20 --> Unknown column 'id_transaksi.pum' in 'where clause'
+CRITICAL - 2023-09-20 01:45:20 --> Unknown column 'id_transaksi.pum' in 'where clause'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(148): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:48:23 --> Unknown column 'biaya.pum' in 'field list'
+CRITICAL - 2023-09-20 01:48:23 --> Unknown column 'biaya.pum' in 'field list'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(biay...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(biay...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(biay...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(biay...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(151): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:49:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+CRITICAL - 2023-09-20 01:49:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (pum - s...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (pum - s...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (pum - s...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (pum - s...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(151): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:50:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+CRITICAL - 2023-09-20 01:50:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (sum(bia...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (sum(bia...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (sum(bia...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (sum(bia...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(151): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:50:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+CRITICAL - 2023-09-20 01:50:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (sum(bia...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (sum(bia...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (sum(bia...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (sum(bia...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(152): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:51:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+CRITICAL - 2023-09-20 01:51:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `biaya`
+JOIN `pum` ON `pum`.`id_pum` = `biaya`.`id_pum`
+WHERE `pum`.`id_...' at line 2
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (sum(bia...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (sum(bia...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (sum(bia...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (sum(bia...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(151): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 01:51:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:pum`.`id_transaksi` = = biaya.id_transaksi:
+GROUP BY `pum`.`id_valas`, `pum...' at line 4
+CRITICAL - 2023-09-20 01:51:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:pum`.`id_transaksi` = = biaya.id_transaksi:
+GROUP BY `pum`.`id_valas`, `pum...' at line 4
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pum`\nFR...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pum`\nFR...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pum`\nFR...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum`\nFR...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(151): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:01:05 --> Column 'id_transaksi' in where clause is ambiguous
+CRITICAL - 2023-09-20 02:01:05 --> Column 'id_transaksi' in where clause is ambiguous
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(150): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): App\Models\BiayaModel->sisa('1')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:14:29 --> Unknown column '$tukarUangMasuk' in 'field list'
+CRITICAL - 2023-09-20 02:14:29 --> Unknown column '$tukarUangMasuk' in 'field list'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT ((pum + ...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ((pum + ...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ((pum + ...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT ((pum + ...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:17:40 --> Invalid use of group function
+CRITICAL - 2023-09-20 02:17:40 --> Invalid use of group function
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT min((pum...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT min((pum...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT min((pum...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT min((pum...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:17:45 --> Invalid use of group function
+CRITICAL - 2023-09-20 02:17:45 --> Invalid use of group function
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT min((pum...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT min((pum...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT min((pum...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT min((pum...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:18:11 --> Invalid use of group function
+CRITICAL - 2023-09-20 02:18:11 --> Invalid use of group function
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (min((pu...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (min((pu...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (min((pu...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (min((pu...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:18:12 --> Invalid use of group function
+CRITICAL - 2023-09-20 02:18:12 --> Invalid use of group function
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (min((pu...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (min((pu...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (min((pu...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (min((pu...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 02:18:12 --> Invalid use of group function
+CRITICAL - 2023-09-20 02:18:12 --> Invalid use of group function
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (min((pu...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (min((pu...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (min((pu...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (min((pu...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-20 02:29:16 --> Undefined array key "totalBiaya"
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:33:07 --> foreach() argument must be of type array|object, float given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 375)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 02:34:43 --> implode(): Argument #2 ($array) must be of type ?array, float given
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(200): implode('', 2489)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:35:01 --> explode(): Argument #1 ($separator) cannot be empty
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(200): explode('', '2489')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:35:05 --> explode(): Argument #1 ($separator) cannot be empty
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(200): explode('', '2489')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:38:53 --> Undefined constant "App\Controllers\Admin\i"
+#0 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-20 02:39:17 --> Undefined array key 6
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:39:32 --> Undefined array key -1
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:39:46 --> Undefined array key 6
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:40:18 --> Undefined variable $sisaUang
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 226)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:54:52 --> Undefined variable $explode
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 202)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:55:11 --> Undefined variable $explode
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 202)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 02:55:23 --> Undefined variable $sisa
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 375)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(226): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 03:01:10 --> Undefined variable $valas
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:01:15 --> Undefined variable $valas
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:01:41 --> Undefined variable $sisa
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:01:47 --> Undefined variable $sisa
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:17:36 --> Undefined array key 0
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:17:37 --> Undefined array key 0
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:17:43 --> Undefined array key 0
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:23:28 --> number_format(): Argument #1 ($num) must be of type float, array given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(377): number_format(Array, 2, ',', '.')
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(215): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 03:23:51 --> number_format(): Argument #1 ($num) must be of type float, array given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(377): number_format(Array, 2, ',', '.')
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(215): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-20 03:25:52 --> Column 'simbol' in field list is ambiguous
+CRITICAL - 2023-09-20 03:25:52 --> Column 'simbol' in field list is ambiguous
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pum`, `...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pum`, `...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pum`, `...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum`, `...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(154): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-20 03:38:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(188): App\Models\BiayaModel->total('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 03:41:15 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): implode('', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:41:30 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): implode(' ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:42:01 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): implode('', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:42:03 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): implode('', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:42:16 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(190): implode(' ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:53:11 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): implode(', ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:53:33 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): implode(', ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:53:34 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): implode(', ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:53:35 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): implode(', ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 03:53:40 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(194): implode(', ', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 04:00:55 --> explode(): Argument #1 ($separator) cannot be empty
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(198): explode('', '153700.00, 82.5...')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 20:04:58 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 312)
+#1 C:\xampp\htdocs\pd_ln\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\pd_ln\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `pum` as...', Array)
+#3 C:\xampp\htdocs\pd_ln\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum` as...', Array, false)
+#6 C:\xampp\htdocs\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#8 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): CodeIgniter\BaseModel->first()
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#10 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-20 20:05:38 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 312)
+#1 C:\xampp\htdocs\pd_ln\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\pd_ln\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `pum` as...', Array)
+#3 C:\xampp\htdocs\pd_ln\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum` as...', Array, false)
+#6 C:\xampp\htdocs\pd_ln\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\pd_ln\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#8 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(193): CodeIgniter\BaseModel->first()
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#10 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-09-20 20:09:38 --> Unknown column 'biaya.pum' in 'field list'
+CRITICAL - 2023-09-20 20:09:38 --> Unknown column 'biaya.pum' in 'field list'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `biaya`....', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `biaya`....')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `biaya`....')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `biaya`....', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(153): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 20:11:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`pum`.`id_valas`
+ORDER BY `biaya`.`id_biaya` ASC' at line 7
+CRITICAL - 2023-09-20 20:11:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`pum`.`id_valas`
+ORDER BY `biaya`.`id_biaya` ASC' at line 7
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pum`\nFR...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pum`\nFR...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pum`\nFR...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pum`\nFR...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(153): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-20 20:16:13 --> Undefined variable $kdoe_valas
+#0 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 149)
+#1 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian', Array)
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-09-20 20:16:25 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 312)
+#1 C:\xampp\htdocs\pd_ln\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\pd_ln\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\pd_ln\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(153): CodeIgniter\Model->__call('get', Array)
+#8 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian', Array)
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#10 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#11 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-09-20 20:18:19 --> Unknown column 'pum.kategori' in 'where clause'
+CRITICAL - 2023-09-20 20:18:19 --> Unknown column 'pum.kategori' in 'where clause'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\BiayaModel.php(152): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\BiayaModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-20 20:24:46 --> Unknown column 'pum.id_biaya' in 'order clause'
+CRITICAL - 2023-09-20 20:24:46 --> Unknown column 'pum.id_biaya' in 'order clause'
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\PumModel.php(71): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\PumModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-20 20:26:40 --> Call to undefined function App\Models\sum()
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(189): App\Models\PumModel->sisa('1', 'pjum', 'Tukar Uang Masu...', 'Kembalian')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 20:30:00 --> Undefined variable $sisa
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 20:55:06 --> Undefined array key "pum"
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 20:58:12 --> Undefined variable $tukarmasuk1
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 393)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:12:23 --> Undefined array key "id_valas"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:12:47 --> Undefined array key "id_valas"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:12:48 --> Undefined array key "id_valas"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:13:06 --> Undefined array key "id_valas"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(223): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:13:34 --> Undefined array key "id_valas"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(231): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:14:20 --> Undefined array key "id_valas"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(231): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:18:52 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 396)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:18:59 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 396)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:19:00 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 396)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:19:10 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(396): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 396)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:27:18 --> Undefined variable $kategori2
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 21:27:32 --> Undefined variable $kategori2
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 21:40:45 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(394): implode('', '48992000.00')
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:40:51 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(394): implode('', '48992000.00')
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:47:12 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-20 21:47:17 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-20 21:51:32 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-20 21:51:37 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-20 21:53:37 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 374)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:53:40 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 374)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 21:53:57 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 374)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(232): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-20 22:15:50 --> Too few arguments to function App\Models\BiayaModel::total(), 2 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 184 and exactly 4 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(184): App\Models\BiayaModel->total('1', 'pb')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-20 22:15:57 --> Too few arguments to function App\Models\BiayaModel::total(), 2 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 184 and exactly 4 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(184): App\Models\BiayaModel->total('1', 'pb')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

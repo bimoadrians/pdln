@@ -1,0 +1,49 @@
+CRITICAL - 2023-12-29 09:22:45 --> Undefined variable $cek
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(1362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1362)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->tanggalpjum('11', '4', 'pjum', '', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-29 13:15:40 --> Undefined variable $id
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(1749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->treasurypb('44', '4', 'pb', '9', '', '', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-29 13:15:48 --> Undefined variable $id
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(1749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1749)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->treasurypb('44', '4', 'pb', '9', '', '', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-29 13:16:08 --> Undefined variable $id
+#0 C:\xampp\htdocs\pdln\app\Views\pb\v_treasurypb.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 245)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_treasurypb', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(1765): view('pb/v_treasurypb', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->treasurypb('44', '4', 'pb', '9', '', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-29 14:08:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->superuser()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-29 15:34:57 --> 7 : Failed to connect to www.bi.go.id port 443: Connection refused
+#0 C:\xampp\htdocs\pdln\system\HTTP\CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to conne...')
+#1 C:\xampp\htdocs\pdln\system\HTTP\CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\pdln\system\HTTP\CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://www.bi....')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(1244): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://www.bi....', Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->tanggalpb('8', '4', 'pb', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

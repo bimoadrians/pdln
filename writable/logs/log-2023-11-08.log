@@ -1,0 +1,100 @@
+CRITICAL - 2023-11-08 02:00:38 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pdln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(101): view('transaksi/v_tra...', Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-11-08 19:50:48 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-11-08 19:50:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pdln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pdln\app\Models\Am21Model.php(59): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(154): App\Models\Am21Model->nik('1280')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tambahdataid()
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-11-08 19:51:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-11-08 19:51:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pdln\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pdln\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(174): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->logout()
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-11-08 19:51:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-11-08 19:51:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pdln\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pdln\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(174): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->logout()
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-08 20:51:03 --> Undefined array key 1
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-08 21:28:30 --> Undefined property: App\Controllers\Admin\Transaksi::$m_kategori
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-08 21:29:28 --> Undefined variable $id_transaksi
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-08 22:15:07 --> Undefined constant "App\Controllers\Admin\J"
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-08 22:22:30 --> Invalid range: "J6:H6"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('J6:H6', 10, 9, 6, 6)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('J6:H6')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('J6:H6')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls\Worksheet.php(285): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(190): PhpOffice\PhpSpreadsheet\Writer\Xls\Worksheet->close()
+#5 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(161): PhpOffice\PhpSpreadsheet\Writer\Xls->save('Laporan Biaya P...')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-08 22:24:45 --> Invalid range: "J6:H6"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('J6:H6', 10, 9, 6, 6)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('J6:H6')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('J6:H6')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls\Worksheet.php(285): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(190): PhpOffice\PhpSpreadsheet\Writer\Xls\Worksheet->close()
+#5 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(174): PhpOffice\PhpSpreadsheet\Writer\Xls->save('Laporan Biaya P...')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

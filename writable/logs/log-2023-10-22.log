@@ -1,0 +1,171 @@
+CRITICAL - 2023-10-22 22:41:55 --> Undefined property: App\Controllers\Admin\PJUM::$m_personil
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 539)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 22:43:34 --> preg_match(): Argument #2 ($subject) must be of type string, array given
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(63): preg_match('/^[\\+\\-]?(\\d+\\....', Array)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(35): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder::dataTypeForValue(Array)
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(237): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), Array)
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue(Array, Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(566): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('C3', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 22:44:36 --> Undefined variable $baris
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 578)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 22:48:32 --> key(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(560): key(NULL)
+#1 [internal function]: App\Controllers\Admin\PJUM->App\Controllers\Admin\{closure}(NULL)
+#2 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(559): array_map(Object(Closure), Array)
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-22 22:54:35 --> fopen(PJUM 09002_08008/1.xls): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(PJUM 0900...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('PJUM 09002_0800...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(230): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('PJUM 09002_0800...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(647): PhpOffice\PhpSpreadsheet\Writer\Xls->save('PJUM 09002_0800...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-22 22:57:23 --> fopen(PJUM 09002_08008/1.xls): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(PJUM 0900...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('PJUM 09002_0800...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(230): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('PJUM 09002_0800...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(647): PhpOffice\PhpSpreadsheet\Writer\Xls->save('PJUM 09002_0800...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-22 22:58:20 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 22:58:22 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 22:58:28 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:00:23 --> fopen(PJUM 09002_08008/1.xls): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(PJUM 0900...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('PJUM 09002_0800...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(230): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('PJUM 09002_0800...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(647): PhpOffice\PhpSpreadsheet\Writer\Xls->save('PJUM 09002_0800...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-22 23:01:21 --> fopen(PB 09002_08008/1.xls): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(PB 09002_...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('PB 09002_08008/...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(230): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('PB 09002_08008/...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(666): PhpOffice\PhpSpreadsheet\Writer\Xls->save('PB 09002_08008/...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->exportpb('pb', '1', '1', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-22 23:03:16 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:03:22 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:03:28 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:03:59 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:06:35 --> fopen(PB 09002_08008/1.xls): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(PB 09002_...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('PB 09002_08008/...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(230): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('PB 09002_08008/...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(666): PhpOffice\PhpSpreadsheet\Writer\Xls->save('PB 09002_08008/...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->exportpb('pb', '1', '1', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-22 23:09:20 --> fopen(PB 09002_08008/1.xls): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(PB 09002_...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('PB 09002_08008/...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xls.php(230): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('PB 09002_08008/...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(666): PhpOffice\PhpSpreadsheet\Writer\Xls->save('PB 09002_08008/...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->exportpb('pb', '1', '1', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-22 23:21:01 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:21:04 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:21:09 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-22 23:21:40 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 645)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->exportpjum('pjum', '1', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,83 @@
+CRITICAL - 2023-08-04 03:32:09 --> Call to undefined method App\Models\PostsModel::getPostId
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(185): CodeIgniter\Model->__call('getPostId', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:32:09 --> Call to undefined method App\Models\PostsModel::getPostId
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(185): CodeIgniter\Model->__call('getPostId', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:32:19 --> Call to undefined method App\Models\PostsModel::getPostId
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(185): CodeIgniter\Model->__call('getPostId', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:32:20 --> Call to undefined method App\Models\PostsModel::getPostId
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(185): CodeIgniter\Model->__call('getPostId', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:36:04 --> Too few arguments to function App\Models\PostsModel::getAdminPost(), 1 passed in D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php on line 185 and exactly 2 expected
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(185): App\Models\PostsModel->getAdminPost('1')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:36:05 --> Too few arguments to function App\Models\PostsModel::getAdminPost(), 1 passed in D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php on line 185 and exactly 2 expected
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(185): App\Models\PostsModel->getAdminPost('1')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:40:40 --> Undefined variable: nik_post
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->tambahdatapjum('2', '')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:40:42 --> Undefined variable: nik_post
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->tambahdatapjum('2', '')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 03:45:27 --> Undefined variable: nik_post
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 139, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->tambahdatapjum('2', '')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-04 22:18:38 --> syntax error, unexpected ':', expecting ')'
+#0 D:\PT Konimex\Proyek PPL\pd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PT Konimex\\P...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}

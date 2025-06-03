@@ -1,0 +1,9 @@
+CRITICAL - 2025-02-17 10:22:06 --> ldap_bind(): Unable to bind to server: Can't contact LDAP server
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(58): ldap_bind(Resource id #177, 'cn=directory ma...', 'd0ra3m0n')
+#2 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(152): App\Controllers\Admin\Admin->checkAuth('09002@intra.net', 'Jerkinson05@')
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

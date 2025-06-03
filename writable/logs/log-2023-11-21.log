@@ -1,0 +1,166 @@
+CRITICAL - 2023-11-21 01:11:41 --> Undefined array key "submit_pjum"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 567)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-21 01:12:35 --> Undefined array key "submit_pjum"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 569)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-21 01:29:47 --> Undefined variable $submit
+#0 C:\xampp\htdocs\pdln\app\Views\transaksi\v_transaksi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(572): view('transaksi/v_tra...', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 01:38:18 --> Undefined variable $submit
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 567)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-21 01:38:41 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\pdln\app\Views\transaksi\v_transaksi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(574): view('transaksi/v_tra...', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 01:39:14 --> Undefined variable $submit
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 568)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-21 01:41:05 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-11-21 02:03:08 --> foreach() argument must be of type array|object, int given
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 447)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-21 21:51:54 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pdln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(464): view('pb/v_datapb', Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-21 21:51:56 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pdln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(464): view('pb/v_datapb', Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-21 21:52:41 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pdln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(464): view('pb/v_datapb', Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-21 21:53:38 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Views\pb\v_datapb.php(696): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 696)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(465): view('pb/v_datapb', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 21:54:01 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Views\pb\v_datapb.php(696): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 696)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(465): view('pb/v_datapb', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 21:54:27 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Views\pb\v_datapb.php(697): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 697)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(465): view('pb/v_datapb', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 21:54:31 --> Array to string conversion
+#0 C:\xampp\htdocs\pdln\app\Views\pb\v_datapb.php(697): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 697)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pb/v_datapb', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(465): view('pb/v_datapb', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '5', '10', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 22:02:56 --> Undefined property: App\Controllers\Admin\PJUM::$m_pb
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(471): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 471)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '5', '14', '', '')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-21 22:04:51 --> Undefined array key "id_pb"
+#0 C:\xampp\htdocs\pdln\app\Views\pjum\v_datapjum.php(801): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 801)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(502): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '5', '14', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-21 22:05:19 --> Undefined variable $valas1
+#0 C:\xampp\htdocs\pdln\app\Views\pjum\v_datapjum.php(803): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 803)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(502): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '5', '14', '', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

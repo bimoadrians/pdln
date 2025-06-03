@@ -1,0 +1,105 @@
+ERROR - 2023-08-07 01:12:02 --> Can't create table `pd_ln`.`akun` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2023-08-07 01:12:50 --> Can't create table `pd_ln`.`akun` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2023-08-07 01:35:54 --> Unknown column 'bagian' in 'where clause'
+CRITICAL - 2023-08-07 01:35:54 --> Unknown column 'bagian' in 'where clause'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\AdminModel.php(21): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(142): App\Models\AdminModel->getData('admin')
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->lupapassword()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-08-07 01:37:34 --> Unknown column 'bagian' in 'where clause'
+CRITICAL - 2023-08-07 01:37:34 --> Unknown column 'bagian' in 'where clause'
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\AdminModel.php(21): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(76): App\Models\AdminModel->getData('admin')
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-08-07 01:53:54 --> Unknown column 'username' in 'field list'
+CRITICAL - 2023-08-07 03:26:21 --> Argument 2 passed to CodeIgniter\BaseModel::paginate() must be of the type string, null given, called in D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php on line 52
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(52): CodeIgniter\BaseModel->paginate(NULL, NULL)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 03:26:22 --> Argument 2 passed to CodeIgniter\BaseModel::paginate() must be of the type string, null given, called in D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php on line 52
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(52): CodeIgniter\BaseModel->paginate(NULL, NULL)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 04:07:18 --> Call to undefined method App\Models\AdminModel::getData1
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(110): CodeIgniter\Model->__call('getData1', Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 04:08:08 --> Call to undefined method App\Models\AdminModel::getData1
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(110): CodeIgniter\Model->__call('getData1', Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 04:10:14 --> Call to undefined method App\Models\AdminModel::getData1
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(81): CodeIgniter\Model->__call('getData1', Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 04:10:18 --> Call to undefined method App\Models\AdminModel::getData1
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(81): CodeIgniter\Model->__call('getData1', Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 04:10:47 --> Undefined variable: id_jabatan
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 81, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 20:27:02 --> Call to undefined method App\Models\AdminModel::getData1
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(83): CodeIgniter\Model->__call('getData1', Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-07 20:27:31 --> Undefined variable: dataAkun
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 81, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}

@@ -1,0 +1,215 @@
+CRITICAL - 2023-10-08 12:37:59 --> Undefined variable $jenis_biaya
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 320)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:38:36 --> Undefined variable $jenis_biaya
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 320)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:38:37 --> Undefined variable $jenis_biaya
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 320)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:38:38 --> Undefined variable $jenis_biaya
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 320)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:38:42 --> Undefined variable $jenis_biaya
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 320)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:39:28 --> Undefined array key "kolom"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 410)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:39:32 --> Undefined array key "kolom"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 410)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:39:46 --> Undefined array key "kolom"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 410)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:40:17 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 330)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:45:29 --> Undefined array key "kolom"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(412): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 412)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 12:51:24 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(731): CodeIgniter\Database\BaseBuilder->_whereIn('kategori', 'Tukar Uang Masu...', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\pdln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->whereIn('kategori', 'Tukar Uang Masu...')
+#2 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(310): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-08 12:52:21 --> Call to undefined method App\Models\BiayaModel::getResultArray
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(310): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:17:05 --> preg_match(): Argument #2 ($subject) must be of type string, array given
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(63): preg_match('/^[\\+\\-]?(\\d+\\....', Array)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(35): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder::dataTypeForValue(Array)
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(237): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), Array)
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1201): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue(Array, Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(422): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueByColumnAndRow(7, 90, Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-08 20:17:17 --> preg_match(): Argument #2 ($subject) must be of type string, array given
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(63): preg_match('/^[\\+\\-]?(\\d+\\....', Array)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(35): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder::dataTypeForValue(Array)
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(237): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), Array)
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1201): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue(Array, Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(422): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueByColumnAndRow(7, 90, Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-08 20:18:12 --> preg_match(): Argument #2 ($subject) must be of type string, array given
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(63): preg_match('/^[\\+\\-]?(\\d+\\....', Array)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php(35): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder::dataTypeForValue(Array)
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(237): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), Array)
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1201): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue(Array, Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(423): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueByColumnAndRow(7, 90, Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-08 20:19:03 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 311)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:19:42 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 421)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:19:45 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 421)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:19:46 --> Undefined array key "uangmasuk"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 421)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:25:51 --> PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray(): Argument #1 ($source) must be of type array, string given, called in C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php on line 422
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(422): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray('0.00', NULL, 'G90')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:25:58 --> PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::fromArray(): Argument #1 ($source) must be of type array, string given, called in C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php on line 422
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(422): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->fromArray('0.00', NULL, 'G90')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 20:48:30 --> Undefined array key 0
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 421)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 22:38:25 --> Undefined variable $biayapesawat
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 393)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 22:47:36 --> Undefined array key "biaya"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 378)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 22:52:35 --> Undefined array key "kolom"
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 395)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 22:58:53 --> Unsupported operand types: array + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-08 22:59:16 --> Unsupported operand types: array + int
+#0 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-08 23:20:15 --> Undefined variable $kategoripesawatpb
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 439)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-08 23:20:24 --> Undefined variable $kategoripesawatpb
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 439)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,82 @@
+CRITICAL - 2023-09-25 01:51:55 --> There is no data to update.
+#0 C:\xampp\htdocs\pdln\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pdln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\pdln\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(185): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-25 01:52:18 --> There is no data to update.
+#0 C:\xampp\htdocs\pdln\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pdln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\pdln\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(185): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-25 01:58:11 --> There is no data to update.
+#0 C:\xampp\htdocs\pdln\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pdln\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\pdln\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(185): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-25 03:09:47 --> Undefined array key "uang_kembali"
+#0 C:\xampp\htdocs\pdln\app\Views\pjum\v_datapjum.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 431)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(249): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 03:10:05 --> Undefined array key "uang_kembali"
+#0 C:\xampp\htdocs\pdln\app\Views\pjum\v_datapjum.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 431)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\PJUM.php(249): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-09-25 22:14:39 --> Column 'biaya' cannot be null
+CRITICAL - 2023-09-25 22:14:39 --> Column 'biaya' cannot be null
+#0 C:\xampp\htdocs\pdln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\pdln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pdln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pdln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(363): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->importpb('pb', '1', '')
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#10 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-09-25 22:15:08 --> Column 'biaya' cannot be null
+CRITICAL - 2023-09-25 22:15:08 --> Column 'biaya' cannot be null
+#0 C:\xampp\htdocs\pdln\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\pdln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\pdln\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\pdln\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pdln\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pdln\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pdln\app\Controllers\Admin\PB.php(363): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->importpb('pb', '1', '')
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#10 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

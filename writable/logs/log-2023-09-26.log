@@ -1,0 +1,47 @@
+CRITICAL - 2023-09-26 23:31:36 --> Too few arguments to function App\Models\TransaksiModel::listTreasury(), 0 passed in C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php on line 67 and exactly 2 expected
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(67): App\Models\TransaksiModel->listTreasury()
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-26 23:31:47 --> Too few arguments to function App\Models\TransaksiModel::listTreasury(), 0 passed in C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php on line 67 and exactly 2 expected
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(67): App\Models\TransaksiModel->listTreasury()
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-26 23:38:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Views\transaksi\v_detailtransaksi.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 157)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_det...', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(193): view('transaksi/v_det...', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 23:39:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Views\transaksi\v_detailtransaksi.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 157)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_det...', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(193): view('transaksi/v_det...', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 23:39:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Views\transaksi\v_detailtransaksi.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 157)
+#1 C:\xampp\htdocs\pdln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdln\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_det...', Array, true)
+#4 C:\xampp\htdocs\pdln\app\Controllers\Admin\Transaksi.php(193): view('transaksi/v_det...', Array)
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

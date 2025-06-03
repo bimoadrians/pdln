@@ -1,0 +1,43 @@
+CRITICAL - 2023-10-07 00:03:22 --> Invalid range: "G13:F14"
+#0 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(464): PhpOffice\PhpSpreadsheet\Cell\Coordinate::validateRange('G13:F14', 7, 7, 13, 14)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(371): PhpOffice\PhpSpreadsheet\Cell\Coordinate::getReferencesForCellBlock('G13:F14')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(751): PhpOffice\PhpSpreadsheet\Cell\Coordinate::extractAllCellReferencesInRange('G13:F14')
+#3 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(411): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->calculateColumnWidths()
+#4 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(84): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCols(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+#5 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), Array, false)
+#6 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(567): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#7 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#8 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-07 00:05:42 --> fopen(Report Biaya 09002.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(Report Bi...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('Report Biaya 09...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('Report Biaya 09...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(567): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-07 00:12:09 --> fopen(Report Biaya 09002.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(Report Bi...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('Report Biaya 09...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('Report Biaya 09...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(567): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-07 00:48:18 --> fopen(Report Biaya 09002.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(Report Bi...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(128): fopen('Report Biaya 09...', 'wb')
+#2 C:\xampp\htdocs\pdln\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('Report Biaya 09...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(588): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('Report Biaya 09...')
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportlaporan('1')
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

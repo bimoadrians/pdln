@@ -1,0 +1,513 @@
+ERROR - 2023-08-25 03:51:55 --> Table 'valas' already exists
+CRITICAL - 2023-08-25 20:27:44 --> Call to a member function getDataAllId() on null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-25 20:27:44 --> Call to a member function getDataAllId() on null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-25 20:27:52 --> Call to a member function getDataAllId() on null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-25 20:27:53 --> Call to a member function getDataAllId() on null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('1')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-25 23:20:59 --> Array to string conversion
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PT Konimex\\P...', 119)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:21:18 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:21:18 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:22:59 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:00 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:13 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:13 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:43 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:43 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:46 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:23:46 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:24:32 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:24:32 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:24:39 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:24:40 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:24:53 --> Creation of dynamic property App\Controllers\Admin\Transaksi::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Transaksi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 17)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:24:53 --> Creation of dynamic property App\Controllers\Admin\Transaksi::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Transaksi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 17)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:25:03 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:25:04 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:25:29 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:25:29 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:30:00 --> Undefined variable $valas
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 145)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:30:00 --> Undefined variable $valas
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 145)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:30:21 --> Undefined variable $parameter
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 118)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:31:27 --> Undefined variable $parameter
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 118)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:39:37 --> syntax error, unexpected token "echo"
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PT Konimex\\P...')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-08-25 23:39:37 --> syntax error, unexpected token "echo"
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\PT Konimex\\P...')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-08-25 23:40:10 --> Undefined variable $parameter
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 118)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:40:19 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:40:20 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:40:52 --> Creation of dynamic property App\Controllers\Admin\PJUM::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 23)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:40:53 --> Creation of dynamic property App\Controllers\Admin\PJUM::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 23)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:41:17 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:41:18 --> Creation of dynamic property App\Controllers\Admin\PJUM::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 20)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:41:28 --> Creation of dynamic property App\Controllers\Admin\PJUM::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 23)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:41:28 --> Creation of dynamic property App\Controllers\Admin\PJUM::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 23)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:41:43 --> Creation of dynamic property App\Controllers\Admin\PJUM::$m_am21 is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 24)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:41:43 --> Creation of dynamic property App\Controllers\Admin\PJUM::$m_am21 is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 24)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:42:49 --> Undefined property: App\Controllers\Admin\PJUM::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 142)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:42:49 --> Undefined property: App\Controllers\Admin\PJUM::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 142)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:42:53 --> Undefined property: App\Controllers\Admin\PJUM::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 142)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:42:53 --> Undefined property: App\Controllers\Admin\PJUM::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 142)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:43:32 --> Undefined property: App\Controllers\Admin\PJUM::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 142)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:43:32 --> Undefined property: App\Controllers\Admin\PJUM::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 142)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->valaspjum('1')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:43:59 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:44:00 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:44:01 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:44:03 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:44:04 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:44:04 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:47:00 --> Creation of dynamic property App\Controllers\Admin\Admin::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 18)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:47:01 --> Creation of dynamic property App\Controllers\Admin\Admin::$validation is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 18)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:47:21 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 125)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:47:21 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 125)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:51:41 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 125)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:51:41 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 125)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:51:42 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 125)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:52:04 --> Undefined property: App\Controllers\Admin\Admin::$validation
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 67)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:55:12 --> Undefined variable $validation
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 67)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-25 23:58:46 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}

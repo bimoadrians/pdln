@@ -1,0 +1,93 @@
+ERROR - 2023-08-21 20:29:24 --> COLLATION 'utf8mb4_general_ci' is not valid for CHARACTER SET 'utf8'
+CRITICAL - 2023-08-21 22:14:55 --> Undefined variable: noemailint
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+ERROR - 2023-08-21 22:30:00 --> Table 'db_pdln.jabatan' doesn't exist
+CRITICAL - 2023-08-21 22:30:00 --> Table 'db_pdln.jabatan' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\JabatanModel.php(17): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(113): App\Models\JabatanModel->getData(NULL)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-08-21 22:30:00 --> Table 'db_pdln.jabatan' doesn't exist
+CRITICAL - 2023-08-21 22:30:00 --> Table 'db_pdln.jabatan' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\JabatanModel.php(17): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(113): App\Models\JabatanModel->getData(NULL)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-08-21 22:51:55 --> Table 'db_pdln.idtransaksi' doesn't exist
+CRITICAL - 2023-08-21 22:51:55 --> Table 'db_pdln.idtransaksi' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\IdtransaksiModel.php(125): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(53): App\Models\IdtransaksiModel->getDataAll()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-08-21 22:51:56 --> Table 'db_pdln.idtransaksi' doesn't exist
+CRITICAL - 2023-08-21 22:51:56 --> Table 'db_pdln.idtransaksi' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\IdtransaksiModel.php(125): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(53): App\Models\IdtransaksiModel->getDataAll()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+CRITICAL - 2023-08-21 23:01:49 --> Undefined variable: am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 51, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-21 23:01:49 --> Undefined variable: am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 51, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-21 23:01:50 --> Undefined variable: am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Idtransaksi.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 51, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}

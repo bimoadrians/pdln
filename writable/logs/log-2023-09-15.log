@@ -1,0 +1,836 @@
+CRITICAL - 2023-09-15 00:30:23 --> Call to a member function getHighestRow() on array
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-09-15 00:37:06 --> Array to string conversion
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PT Konimex\\P...', 330)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 00:37:42 --> Array to string conversion
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PT Konimex\\P...', 330)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 00:37:48 --> Array to string conversion
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PT Konimex\\P...', 330)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 00:38:40 --> Array to string conversion
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\PT Konimex\\P...', 376)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 00:56:38 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 361)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 00:57:18 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 361)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 02:17:19 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 344)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 02:17:28 --> Trying to access array offset on value of type null
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\PT Konimex\\P...', 344)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-15 03:24:57 --> Undefined constant "base_url"
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Admin.php(107): view('admin/v_login', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 03:24:58 --> Undefined constant "base_url"
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Admin.php(107): view('admin/v_login', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 03:25:12 --> Undefined constant "base_url"
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Admin.php(107): view('admin/v_login', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 03:25:13 --> Undefined constant "base_url"
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Admin.php(107): view('admin/v_login', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 03:26:07 --> Undefined variable $base_url
+#0 C:\xampp\htdocs\pd_ln\app\Views\admin\v_login.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Admin.php(107): view('admin/v_login', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-15 03:26:08 --> Undefined variable $base_url
+#0 C:\xampp\htdocs\pd_ln\app\Views\admin\v_login.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Admin.php(107): view('admin/v_login', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-15 21:41:02 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-15 21:41:03 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-09-15 21:41:43 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:41:43 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:25 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:26 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:27 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:28 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:42 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:43 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:44 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:42:46 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:43:49 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:43:49 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:43:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:43:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:43:51 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:43:51 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:02 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:03 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:03 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:03 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:04 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:04 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:04 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:05 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:12 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:12 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:12 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:13 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:13 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:45:14 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:51:37 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:51:37 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:55:48 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:55:49 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:19 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:20 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:21 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:21 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:22 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:22 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:22 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:57:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:58:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:58:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:58:31 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:58:31 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:58:46 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 21:58:47 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:00:56 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:00:57 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:01:23 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:01:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:01:36 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:01:36 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:03:41 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 22:03:42 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 23:36:46 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 23:41:14 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 23:41:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 23:43:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-15 23:43:56 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

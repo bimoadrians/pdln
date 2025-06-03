@@ -1,0 +1,115 @@
+CRITICAL - 2023-08-26 00:01:33 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:02:27 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 126)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:02:27 --> Undefined variable $m_am21
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 126)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:03:34 --> Declaration of App\Controllers\Admin\Admin::initController() must be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-26 00:03:35 --> Declaration of App\Controllers\Admin\Admin::initController() must be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-26 00:04:24 --> Could not check compatibility between App\Controllers\Admin\Admin::initController(App\Controllers\Admin\RequestInterface $request, App\Controllers\Admin\ResponseInterface $response, App\Controllers\Admin\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\Admin\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-26 00:04:24 --> Could not check compatibility between App\Controllers\Admin\Admin::initController(App\Controllers\Admin\RequestInterface $request, App\Controllers\Admin\ResponseInterface $response, App\Controllers\Admin\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\Admin\RequestInterface is not available
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-26 00:08:02 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:09:36 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 81)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:10:17 --> Call to undefined method App\Controllers\Admin\Admin::getData()
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-26 00:10:48 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 81)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:16:41 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 92)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:19:13 --> Undefined property: App\Controllers\Admin\Admin::$m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\PT Konimex\\P...', 80)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:19:43 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:23:23 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:23:23 --> Creation of dynamic property App\Controllers\Admin\Admin::$m_admin is deprecated
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\PT Konimex\\P...', 14)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-26 00:24:16 --> Undefined variable $m_admin
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 80)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}

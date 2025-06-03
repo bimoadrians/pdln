@@ -1,0 +1,230 @@
+CRITICAL - 2023-09-17 20:11:43 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:11:53 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:12:00 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:15:35 --> Object of class mysqli could not be converted to string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-17 20:19:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(337): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 337)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 20:22:10 --> Array to string conversion
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 225)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:22:40 --> Array to string conversion
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 225)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:23:12 --> Undefined constant "nomor"
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-17 20:23:48 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 225)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:24:48 --> Undefined array key "nomor"
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 201)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 20:25:08 --> Object of class mysqli could not be converted to string
+#0 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#3 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-17 20:27:09 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(208): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:28:49 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(213): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:29:01 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(213): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '1', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:44:03 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(213): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 20:44:12 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\pd_ln\app\Views\pjum\v_datapjum.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\pd_ln\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_datapjum', Array, true)
+#4 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(213): view('pjum/v_datapjum', Array)
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '2', '')
+#6 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-17 22:25:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 359)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 22:25:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 359)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 23:05:30 --> Too few arguments to function App\Models\BiayaModel::total(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 179 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(179): App\Models\BiayaModel->total('2')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 23:05:41 --> Too few arguments to function App\Models\BiayaModel::total(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 179 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(179): App\Models\BiayaModel->total('2')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 23:05:50 --> Too few arguments to function App\Models\BiayaModel::total(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 179 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(179): App\Models\BiayaModel->total('2')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 23:08:12 --> Too few arguments to function App\Models\BiayaModel::alldataId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 177 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(177): App\Models\BiayaModel->alldataId('2')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '2', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 23:29:50 --> syntax error, unexpected identifier "pjum", expecting ")"
+#0 C:\xampp\htdocs\pd_ln\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pd_ln\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-17 23:42:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 338)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->importpb('pb', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-17 23:42:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 338)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->importpb('pb', '1', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

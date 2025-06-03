@@ -1,0 +1,481 @@
+ERROR - 2023-09-03 20:54:43 --> Table 'valas' already exists
+CRITICAL - 2023-09-03 22:21:54 --> Undefined variable $hasil
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 231)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-03 22:21:55 --> Undefined variable $hasil
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 231)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-03 22:22:17 --> Undefined variable $id_biaya
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 235)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-03 22:22:19 --> Undefined variable $id_biaya
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\PT Konimex\\P...', 235)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->importpjum('pjum', '1', '')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-09-03 22:32:57 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('datapjum/pjum/1', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 22:32:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 22:33:56 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('datapjum/pjum/1', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 22:33:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 22:37:35 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 11
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'D:\\PT Konimex\\P...', 384)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Router\Router.php(384): preg_match('#^importpjum)$#...', 'datapjum/pjum/1', NULL)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('datapjum/pjum/1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('datapjum/pjum/1')
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-09-03 22:37:35 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 22:39:36 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 11
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'D:\\PT Konimex\\P...', 384)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Router\Router.php(384): preg_match('#^importpjum)$#...', 'datapjum/pjum/1', Array)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('datapjum/pjum/1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('datapjum/pjum/1')
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-09-03 22:39:38 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 11
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'D:\\PT Konimex\\P...', 384)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Router\Router.php(384): preg_match('#^importpjum)$#...', 'datapjum/pjum/1', Array)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('datapjum/pjum/1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('datapjum/pjum/1')
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-09-03 22:40:53 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('datapjum/pjum/1', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 22:40:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 22:47:57 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 22:47:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:09:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:18:52 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:18:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:23:00 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('datapjum/pjum/1', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:23:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:26:00 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('datapjum/pjum/1', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:26:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:29:09 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:29:09 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:43:04 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:43:04 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:43:45 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:43:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:47:32 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:47:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:51:35 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:51:35 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:56:01 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:56:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:56:52 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:56:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:57:29 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:57:29 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-03 23:58:12 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\PT Konimex\\P...', 71)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\app\Filters\AuthFilter.php(14): session()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('importpjum/pjum...', 'before')
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-09-03 23:58:12 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\PT Konimex\Proyek PPL\pd_ln\app\Config\Events.php:32) in D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\PT Konimex\\P...', 112)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

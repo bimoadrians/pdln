@@ -1,0 +1,89 @@
+CRITICAL - 2023-11-07 01:44:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 1547)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 01:47:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1559): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 1559)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 01:47:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1559): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 1559)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 01:50:03 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1559): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 1559)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 01:50:05 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1559): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 1559)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->exportbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 02:33:02 --> Undefined array key 13
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1363)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->importbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 02:35:06 --> Undefined array key 13
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(1363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1363)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->importbiaya('1')
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-07 21:40:52 --> File not found: http://localhost/pdln/formatExcel/Format Detail Biaya Perjalanan Dinas Luar Negeri.xls
+#0 C:\xampp\htdocs\pdln\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\pdln\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\pdln\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(145): CodeIgniter\HTTP\Response->download('Format Detail B...', NULL)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->downloadxls()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-07 21:44:30 --> File not found: http://localhost/pdln/formatExcel/Format Detail Biaya Perjalanan Dinas Luar Negeri.xls
+#0 C:\xampp\htdocs\pdln\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\pdln\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\pdln\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(145): CodeIgniter\HTTP\Response->download('Format Detail B...', NULL)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->downloadxls()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-07 21:44:41 --> File not found: http://localhost/pdln/formatExcel/Format Detail Biaya Perjalanan Dinas Luar Negeri.xls
+#0 C:\xampp\htdocs\pdln\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\pdln\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\pdln\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(145): CodeIgniter\HTTP\Response->download('Format Detail B...', NULL)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->downloadxls()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-07 21:47:58 --> File not found: http://localhost/pdln/formatExcel/Format Detail Biaya Perjalanan Dinas Luar Negeri.xls
+#0 C:\xampp\htdocs\pdln\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\pdln\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\pdln\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('http://localhos...')
+#3 C:\xampp\htdocs\pdln\app\Controllers\Admin\Dashboard.php(145): CodeIgniter\HTTP\Response->download('Format Detail B...', NULL)
+#4 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->downloadxls()
+#5 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

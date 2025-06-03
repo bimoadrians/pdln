@@ -1,0 +1,119 @@
+ERROR - 2023-07-18 00:58:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'timestamp default now(),
+	CONSTRAINT `pk_admin` PRIMARY KEY(`id`)
+) DEFAULT C...' at line 8
+ERROR - 2023-07-18 01:07:32 --> Table 'pd-ln.admin' doesn't exist
+ERROR - 2023-07-18 01:13:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'timestamp default now(),
+	CONSTRAINT `pk_admin` PRIMARY KEY(`id`)
+) DEFAULT C...' at line 8
+ERROR - 2023-07-18 01:23:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'timestamp default now(),
+	CONSTRAINT `pk_admin` PRIMARY KEY(`id`)
+) DEFAULT C...' at line 8
+CRITICAL - 2023-07-18 02:21:50 --> noauth filter must have a matching alias defined.
+#0 D:\PT Konimex\Proyek PPL\pd\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-07-18 02:21:50 --> noauth filter must have a matching alias defined.
+#0 D:\PT Konimex\Proyek PPL\pd\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-07-18 02:21:51 --> noauth filter must have a matching alias defined.
+#0 D:\PT Konimex\Proyek PPL\pd\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-07-18 02:52:54 --> Call to undefined function App\Controllers\Admin\kirim_email()
+#0 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->lupapassword()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-07-18 02:55:46 --> Use of undefined constant EMAIL_ALAMAT - assumed 'EMAIL_ALAMAT' (this will throw an Error in a future version of PHP)
+#0 D:\PT Konimex\Proyek PPL\pd\app\Helpers\global_fungsi_helper.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\PT Konimex\\P...', 5, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(147): kirim_email('', 'filebimo10@gmai...', 'Reset Password', 'Berikut ini lin...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->lupapassword()
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#7 {main}
+ERROR - 2023-07-18 02:57:00 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2023-07-18 02:58:11 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2023-07-18 03:19:34 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-07-18 03:19:35 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-07-18 03:19:42 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-07-18 03:19:42 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-07-18 03:19:43 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-07-18 03:21:54 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-07-18 03:21:54 --> Invalid file: ui/v_template_header.php
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_template_h...')
+#1 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_template_h...', Array, true)
+#2 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(22): view('ui/v_template_h...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}

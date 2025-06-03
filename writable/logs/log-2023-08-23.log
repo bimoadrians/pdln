@@ -1,0 +1,138 @@
+CRITICAL - 2023-08-23 01:50:34 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Transaksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 67, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-23 01:50:35 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Transaksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 67, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-08-23 01:59:24 --> Class 'App\Models\IdtransaksiModel' not found
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Dashboard->__construct()
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-23 01:59:24 --> Class 'App\Models\IdtransaksiModel' not found
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\Dashboard->__construct()
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-23 02:02:15 --> Undefined variable: neg
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Views\admin\v_dashboard.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 47, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Dashboard.php(62): view('admin/v_dashboa...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-08-23 02:02:16 --> Undefined variable: neg
+#0 D:\PT Konimex\Proyek PPL\pd_ln\app\Views\admin\v_dashboard.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 47, Array)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Dashboard.php(62): view('admin/v_dashboa...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-08-23 02:11:51 --> Class 'App\Models\IdtransaksiModel' not found
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-08-23 02:11:51 --> Class 'App\Models\IdtransaksiModel' not found
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(809): App\Controllers\Admin\PJUM->__construct()
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+ERROR - 2023-08-23 03:04:41 --> Table 'db_pdln.posts' doesn't exist
+CRITICAL - 2023-08-23 03:04:41 --> Table 'db_pdln.posts' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\PostsModel.php(126): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(222): App\Models\PostsModel->getPost(Array)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-08-23 03:04:42 --> Table 'db_pdln.posts' doesn't exist
+CRITICAL - 2023-08-23 03:04:42 --> Table 'db_pdln.posts' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PT Konimex\Proyek PPL\pd_ln\app\Models\PostsModel.php(126): CodeIgniter\Model->__call('get', Array)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\PJUM.php(222): App\Models\PostsModel->getPost(Array)
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->lihatdatapjum(Array)
+#8 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#9 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+CRITICAL - 2023-08-23 23:45:02 --> Couldn't read the indices [Names][aud][0] for the locale "en" in "D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl/Resources/data/currencies". The indices also couldn't be found for the fallback locale(s) "root".
+#0 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\ResourceBundle.php(58): Symfony\Component\Intl\Data\Bundle\Reader\BundleEntryReader->readEntry('D:\\PT Konimex\\P...', 'en', Array, true)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\Currencies.php(87): Symfony\Component\Intl\ResourceBundle::readEntry(Array, NULL)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Dashboard.php(73): Symfony\Component\Intl\Currencies::getSymbol('aud')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-08-23 23:45:04 --> Couldn't read the indices [Names][aud][0] for the locale "en" in "D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl/Resources/data/currencies". The indices also couldn't be found for the fallback locale(s) "root".
+#0 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\ResourceBundle.php(58): Symfony\Component\Intl\Data\Bundle\Reader\BundleEntryReader->readEntry('D:\\PT Konimex\\P...', 'en', Array, true)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\Currencies.php(87): Symfony\Component\Intl\ResourceBundle::readEntry(Array, NULL)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Dashboard.php(73): Symfony\Component\Intl\Currencies::getSymbol('aud')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-08-23 23:50:00 --> Couldn't read the indices [Names][RP][0] for the locale "en" in "D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl/Resources/data/currencies". The indices also couldn't be found for the fallback locale(s) "root".
+#0 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\ResourceBundle.php(58): Symfony\Component\Intl\Data\Bundle\Reader\BundleEntryReader->readEntry('D:\\PT Konimex\\P...', 'en', Array, true)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\Currencies.php(87): Symfony\Component\Intl\ResourceBundle::readEntry(Array, NULL)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Dashboard.php(73): Symfony\Component\Intl\Currencies::getSymbol('RP')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}
+CRITICAL - 2023-08-23 23:50:01 --> Couldn't read the indices [Names][RP][0] for the locale "en" in "D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl/Resources/data/currencies". The indices also couldn't be found for the fallback locale(s) "root".
+#0 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\ResourceBundle.php(58): Symfony\Component\Intl\Data\Bundle\Reader\BundleEntryReader->readEntry('D:\\PT Konimex\\P...', 'en', Array, true)
+#1 D:\PT Konimex\Proyek PPL\pd_ln\vendor\symfony\intl\Currencies.php(87): Symfony\Component\Intl\ResourceBundle::readEntry(Array, NULL)
+#2 D:\PT Konimex\Proyek PPL\pd_ln\app\Controllers\Admin\Dashboard.php(73): Symfony\Component\Intl\Currencies::getSymbol('RP')
+#3 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#4 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\PT Konimex\Proyek PPL\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PT Konimex\Proyek PPL\pd_ln\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\PT Konimex\Proyek PPL\pd_ln\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#8 {main}

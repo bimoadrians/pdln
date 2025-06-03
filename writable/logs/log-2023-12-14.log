@@ -1,0 +1,168 @@
+CRITICAL - 2023-12-14 14:02:16 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:03 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:35 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:36 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:37 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:37 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:38 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:38 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:38 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:39 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:39 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:40 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:40 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:40 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:41 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:41 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:04:42 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 14:05:05 --> Undefined property: App\Controllers\Admin\Admin::$output
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(809): App\Controllers\Admin\Admin->__construct()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 15:16:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 15:17:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 15:38:48 --> Undefined variable $data
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 155)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 15:47:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 15:49:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-14 16:07:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdln\app\Controllers\Admin\Admin.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\pdln\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->sukses()
+#2 C:\xampp\htdocs\pdln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\pdln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

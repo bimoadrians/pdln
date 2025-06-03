@@ -1,0 +1,947 @@
+CRITICAL - 2023-07-26 00:02:58 --> Undefined variable: id
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:05:27 --> Undefined variable: id
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:05:34 --> Undefined variable: id
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:06:34 --> Undefined variable: id
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:08:17 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:10:24 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:10:36 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:50:26 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 77, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 00:53:34 --> Undefined variable: jumlah_personil
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 77, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 01:03:03 --> Undefined variable: modelId
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Admin.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 79, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 01:21:47 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:21:48 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:22:12 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:22:13 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:22:48 --> Undefined variable: record
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:22:49 --> Undefined variable: record
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:23:25 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:23:26 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:23:36 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:23:36 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:27:15 --> Undefined variable: orang
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:27:17 --> Undefined variable: orang
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:27:28 --> Undefined variable: orang
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:27:29 --> Undefined variable: orang
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 137, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:32:05 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:32:05 --> Undefined index: link
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\PT Konimex\\P...', 142, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(36): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 01:55:17 --> Use of undefined constant hasil - assumed 'hasil' (this will throw an Error in a future version of PHP)
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\PT Konimex\\P...', 49, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 01:55:17 --> Use of undefined constant hasil - assumed 'hasil' (this will throw an Error in a future version of PHP)
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\PT Konimex\\P...', 49, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:07:43 --> Undefined variable: hasil
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 45, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:07:43 --> Undefined variable: hasil
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 45, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:22:06 --> Undefined variable: hasil
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 48, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:22:07 --> Undefined variable: hasil
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 48, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:49:31 --> Use of undefined constant akun_nik - assumed 'akun_nik' (this will throw an Error in a future version of PHP)
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\PT Konimex\\P...', 38, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:49:32 --> Use of undefined constant akun_nik - assumed 'akun_nik' (this will throw an Error in a future version of PHP)
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\PT Konimex\\P...', 38, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:55:49 --> Undefined variable: link_delete
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 146, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(53): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 02:55:50 --> Undefined variable: link_delete
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 146, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(53): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 02:59:02 --> Undefined property: App\Controllers\Admin\Idtransaksi::$m_posts
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\PT Konimex\\P...', 22, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 02:59:03 --> Undefined property: App\Controllers\Admin\Idtransaksi::$m_posts
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\PT Konimex\\P...', 22, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:00:57 --> Call to undefined method App\Models\IdtransaksiModel::deletePost
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(24): CodeIgniter\Model->__call('deletePost', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:00:58 --> Call to undefined method App\Models\IdtransaksiModel::deletePost
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(24): CodeIgniter\Model->__call('deletePost', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:13:13 --> Undefined variable: id
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\pjum\v_pjum.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 74, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_pjum', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(27): view('pjum/v_pjum', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 03:13:14 --> Undefined variable: id
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\pjum\v_pjum.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 74, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('pjum/v_pjum', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\PJUM.php(27): view('pjum/v_pjum', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 03:31:11 --> Undefined variable: link_edit
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 149, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(53): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 03:31:12 --> Undefined variable: link_edit
+#0 D:\PT Konimex\Proyek PPL\pd\app\Views\idtransaksi\v_idtransaksi.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 149, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include('D:\\PT Konimex\\P...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('idtransaksi/v_i...', Array, true)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(53): view('idtransaksi/v_i...', Array)
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+CRITICAL - 2023-07-26 03:35:27 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 20, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:35:28 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 20, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:50:12 --> Undefined property: App\Controllers\Admin\Dashboard::$db
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\PT Konimex\\P...', 42, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:50:13 --> Undefined property: App\Controllers\Admin\Dashboard::$db
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\PT Konimex\\P...', 42, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:52:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): App\Models\IdtransaksiModel->get_id_transaksi()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:52:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): App\Models\IdtransaksiModel->get_id_transaksi()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:54:07 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Models\IdtransaksiModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 75, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): App\Models\IdtransaksiModel->get_id_transaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#7 {main}
+CRITICAL - 2023-07-26 03:54:07 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Models\IdtransaksiModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 75, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): App\Models\IdtransaksiModel->get_id_transaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#7 {main}
+CRITICAL - 2023-07-26 03:55:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): App\Models\IdtransaksiModel->get_id_transaksi()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:55:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): App\Models\IdtransaksiModel->get_id_transaksi()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 03:57:08 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\PT Konimex\\P...', 312, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#8 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-07-26 03:57:09 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\PT Konimex\\P...', 312, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#8 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-07-26 03:57:20 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\PT Konimex\\P...', 312, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#8 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-07-26 03:57:21 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\PT Konimex\\P...', 312, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#8 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+ERROR - 2023-07-26 03:58:33 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2023-07-26 03:58:33 --> Illegal parameter data types int and row for operation '='
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Object(CodeIgniter\Database\MySQLi\Builder))
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-07-26 03:58:34 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2023-07-26 03:58:34 --> Illegal parameter data types int and row for operation '='
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Object(CodeIgniter\Database\MySQLi\Builder))
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-07-26 03:58:52 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2023-07-26 03:58:52 --> Illegal parameter data types int and row for operation '='
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Object(CodeIgniter\Database\MySQLi\Builder))
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-07-26 03:58:53 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2023-07-26 03:58:53 --> Illegal parameter data types int and row for operation '='
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(49): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Object(CodeIgniter\Database\MySQLi\Builder))
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+CRITICAL - 2023-07-26 04:01:18 --> Undefined variable: db
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 42, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 04:01:19 --> Undefined variable: db
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 42, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 04:02:44 --> Undefined variable: db
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 15, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(809): App\Controllers\Admin\Dashboard->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 04:02:44 --> Undefined variable: db
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 15, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(809): App\Controllers\Admin\Dashboard->__construct()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 04:04:18 --> Undefined variable: results
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 45, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 04:04:18 --> Undefined variable: results
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 45, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 04:04:35 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\PT Konimex\\P...', 312, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#8 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(53): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-07-26 04:04:35 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\PT Konimex\\P...', 312, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#8 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(53): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#11 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#14 {main}
+CRITICAL - 2023-07-26 04:05:00 --> Object of class stdClass could not be converted to string
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(53): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#13 {main}
+CRITICAL - 2023-07-26 04:05:00 --> Object of class stdClass could not be converted to string
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*)...', Array)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#7 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(53): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard(Array)
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#10 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#13 {main}
+CRITICAL - 2023-07-26 20:33:12 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-26 20:36:19 --> Too few arguments to function App\Controllers\Admin\Dashboard::dashboard(), 0 passed in D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-07-26 20:36:19 --> Too few arguments to function App\Controllers\Admin\Dashboard::dashboard(), 0 passed in D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#5 {main}
+CRITICAL - 2023-07-26 20:44:10 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-26 20:48:58 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-07-26 20:49:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-07-26 20:49:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(44): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#10 {main}
+ERROR - 2023-07-26 22:01:36 --> Table 'pdln.migrations' doesn't exist in engine
+ERROR - 2023-07-26 22:06:54 --> Table 'pdln.migrations' doesn't exist in engine
+ERROR - 2023-07-26 22:19:36 --> Can't create table `pd_ln`.`posts` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2023-07-26 22:20:57 --> Can't create table `pd_ln`.`posts` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2023-07-26 22:34:49 --> Table 'pd_ln.id_transaksi' doesn't exist
+CRITICAL - 2023-07-26 22:34:49 --> Table 'pd_ln.id_transaksi' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(44): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+ERROR - 2023-07-26 22:34:51 --> Table 'pd_ln.id_transaksi' doesn't exist
+CRITICAL - 2023-07-26 22:34:51 --> Table 'pd_ln.id_transaksi' doesn't exist
+#0 D:\PT Konimex\Proyek PPL\pd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PT Konimex\Proyek PPL\pd\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PT Konimex\Proyek PPL\pd\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\PT Konimex\Proyek PPL\pd\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(44): CodeIgniter\BaseModel->paginate(6, 'id_transaksi')
+#7 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#8 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#9 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#12 {main}
+CRITICAL - 2023-07-26 22:48:22 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 38, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 22:48:23 --> Undefined variable: id_transaksi
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 38, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 22:50:20 --> Undefined property: App\Controllers\Admin\Dashboard::$judulPJUM
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\PT Konimex\\P...', 42, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 22:50:21 --> Undefined property: App\Controllers\Admin\Dashboard::$judulPJUM
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\PT Konimex\\P...', 42, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:10:24 --> Too few arguments to function App\Models\IdtransaksiModel::getPost(), 1 passed in D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php on line 20 and exactly 2 expected
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(20): App\Models\IdtransaksiModel->getPost('2')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('2')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:10:25 --> Too few arguments to function App\Models\IdtransaksiModel::getPost(), 1 passed in D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php on line 20 and exactly 2 expected
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(20): App\Models\IdtransaksiModel->getPost('2')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('2')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:11:13 --> Undefined variable: nik
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 41, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('2')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:11:13 --> Undefined variable: nik
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 41, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('2')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:11:51 --> Too few arguments to function App\Models\IdtransaksiModel::listPost(), 1 passed in D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php on line 38 and exactly 2 expected
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(38): App\Models\IdtransaksiModel->listPost('09002')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:11:52 --> Too few arguments to function App\Models\IdtransaksiModel::listPost(), 1 passed in D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php on line 38 and exactly 2 expected
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Idtransaksi.php(38): App\Models\IdtransaksiModel->listPost('09002')
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Idtransaksi->idtransaksi()
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Idtransaksi))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:36:43 --> Undefined variable: nik
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 41, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('2')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:36:44 --> Undefined variable: nik
+#0 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\PT Konimex\\P...', 41, Array)
+#1 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('2')
+#2 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#6 {main}
+CRITICAL - 2023-07-26 23:53:07 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include()
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#3 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(63): view('admin/v_dashboa...', Array)
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('1')
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}
+CRITICAL - 2023-07-26 23:53:09 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+#0 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(210): include()
+#1 D:\PT Konimex\Proyek PPL\pd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\PT Konimex\Proyek PPL\pd\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#3 D:\PT Konimex\Proyek PPL\pd\app\Controllers\Admin\Dashboard.php(63): view('admin/v_dashboa...', Array)
+#4 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('1')
+#5 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#6 D:\PT Konimex\Proyek PPL\pd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PT Konimex\Proyek PPL\pd\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\PT Konimex\Proyek PPL\pd\system\Commands\Server\rewrite.php(43): require_once('D:\\PT Konimex\\P...')
+#9 {main}

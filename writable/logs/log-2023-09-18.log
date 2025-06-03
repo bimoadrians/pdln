@@ -1,0 +1,140 @@
+CRITICAL - 2023-09-18 22:11:27 --> Undefined variable $substr
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:12:08 --> Undefined variable $substr
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Dashboard->dashboard('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:12:41 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php on line 144 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(144): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:13:12 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php on line 199 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(199): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:13:25 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php on line 199 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(199): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:13:36 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php on line 199 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PJUM.php(199): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PJUM->datapjum('pjum', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PJUM))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:21:11 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php on line 144 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(144): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:21:36 --> Undefined variable $strorg
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:21:50 --> Undefined variable $strorg
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\PB.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\PB->datapb('pb', '3', '')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PB))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:22:32 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php on line 35 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(35): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:22:38 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php on line 35 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(35): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transaksi()
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:29:40 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php on line 170 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(170): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:30:15 --> Too few arguments to function App\Models\TransaksiModel::getPostId(), 1 passed in C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php on line 170 and exactly 2 expected
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(170): App\Models\TransaksiModel->getPostId('3')
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->detailtransaksi('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:38:28 --> Undefined variable $strorg
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tambahpersonil('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:38:37 --> Undefined variable $strorg
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 288)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tambahnegara('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-18 22:38:44 --> Undefined variable $strorg
+#0 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 288)
+#1 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tambahnegara('3')
+#2 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-09-18 23:23:43 --> Table 'db_pdln.kota' doesn't exist
+CRITICAL - 2023-09-18 23:23:43 --> Table 'db_pdln.kota' doesn't exist
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\KotaModel.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(289): App\Models\KotaModel->getDataAll()
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tambahpersonil('3')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-18 23:23:55 --> Table 'db_pdln.kota' doesn't exist
+CRITICAL - 2023-09-18 23:23:55 --> Table 'db_pdln.kota' doesn't exist
+#0 C:\xampp\htdocs\pd_ln\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pd_ln\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pd_ln\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pd_ln\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pd_ln\app\Models\KotaModel.php(24): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\pd_ln\app\Controllers\Admin\Transaksi.php(289): App\Models\KotaModel->getDataAll()
+#7 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tambahpersonil('3')
+#8 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\pd_ln\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pdln\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
